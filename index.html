@@ -1,0 +1,158 @@
+<<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKART | Clean Beauty & Design Artistique</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Styles essentiels pour la grille de la boutique sans modifier le CSS externe */
+        .shop-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 40px 0;
+        }
+        .product-card {
+            background: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .product-img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-bottom: 15px;
+            background-color: #f9f9f9;
+        }
+        .product-card h4 { margin: 10px 0; font-weight: 700; }
+        .product-price { color: #888; margin-bottom: 15px; display: block; }
+        .btn-buy {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #000;
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.9em;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">SK<span>ART</span></div>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#univers">L'Univers</a></li>
+                <li><a href="#boutique">Boutique</a></li>
+                <li><a href="#engagement">Engagement</a></li>
+                <li><a href="#boutique" class="btn-contact">Acheter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>L'Art à fleur de peau</h1>
+            <p>La fusion parfaite entre formulations Clean Beauty et design artistique de haute volée.</p>
+            <a href="#univers" class="cta">Découvrir l'expérience</a>
+        </div>
+    </section>
+
+    <section id="univers" class="container">
+        <h2 class="section-title">La Maison SKART</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Notre Savoir-faire</h3>
+                <p>Expertise en dermo-cosmétique. Nous créons des produits de soin (Skincare) et de maquillage haut de gamme aux formules innovantes et respectueuses.</p>
+            </div>
+            <div class="card">
+                <h3>Design Artistique</h3>
+                <p>Chaque produit est pensé comme une œuvre d'art. Nos packagings sculpturaux redéfinissent l'élégance de votre rituel beauté.</p>
+            </div>
+            <div class="card">
+                <h3>Vision 2026</h3>
+                <p>Incarner le futur de la cosmétique : une beauté transparente, performante et radicalement créative.</p>
+            </div>
+        </div>
+    </section>
+
+ <!-- SECTION BOUTIQUE MISE À JOUR -->
+    <section id="boutique" class="container">
+        <h2 class="section-title">La Collection Éclat des Étoiles</h2>
+        <div class="shop-grid">
+            
+            <!-- Produit 1 -->
+            <div class="product-card">
+                <img src="IMG_6967 2.jpg" alt="Gel Nettoyant Visage" class="product-img">
+                <h4>Gel Nettoyant Visage</h4>
+                <p style="font-size: 0.8em; color: #666;">Néroli & Acide Hyaluronique</p>
+                <span class="product-price">299,00 MAD</span>
+                <a href="#" class="btn-buy">Ajouter au panier</a>
+            </div>
+
+            <!-- Produit 2 -->
+            <div class="product-card">
+                <img src="IMG_6967 3.jpg" alt="Baume à Lèvres" class="">
+                <h4>Baume à Lèvres Hydratant</h4>
+                <p style="font-size: 0.8em; color: #666;">Beurre de Karité</p>
+                <span class="product-price">149,00 MAD</span>
+                <a href="#" class="btn-buy">Ajouter au panier</a>
+            </div>
+
+            <!-- Produit 3 -->
+            <div class="product-card">
+                <img src="IMG_6967 4.jpg" alt="Crème de Nuit" class="product-img">
+                <h4>Crème de Nuit Réparatrice</h4>
+                <p style="font-size: 0.8em; color: #666;">Rétinol Botanique</p>
+                <span class="product-price">369,00 MAD</span>
+                <a href="#" class="btn-buy">Ajouter au panier</a>
+            </div>
+
+            <!-- Produit 4 -->
+            <div class="product-card">
+                <img src="IMG_6967.jpg" alt="Crème Mains et Corps" class="product-img">
+                <h4>Crème Mains et Corps</h4>
+                <p style="font-size: 0.8em; color: #666;">Huiles Précieuses</p>
+                <span class="product-price">199,00 MAD</span>
+                <a href="#" class="btn-buy">Ajouter au panier</a>
+            </div>
+
+        </div>
+    </section>
+    <section id="engagement" class="bg-light">
+        <div class="container">
+            <h2 class="section-title">Stratégie & Innovation</h2>
+            <div class="flex-content">
+                <div class="text-box">
+                    <h3>Cibles & Positionnement</h3>
+                    <p>Nous nous adressons à une clientèle exigeante, en quête de produits de luxe éthiques et de designs exclusifs.</p>
+                    <br>
+                    <h3>Rayonnement de la Marque</h3>
+                    <ul>
+                        <li>Campagnes visuelles immersives sur Instagram & TikTok</li>
+                        <li>Collaborations avec des artistes et maquilleurs internationaux</li>
+                        <li>Présence exclusive en concept-stores et e-shop premium</li>
+                        <li>Expérience client personnalisée via diagnostic IA</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 SKART - L'innovation au service de la beauté. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
